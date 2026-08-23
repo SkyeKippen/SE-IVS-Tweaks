@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <BlueprintClasses>
+
+        <Class>
+            <Id>
+                <TypeId>BlueprintClassDefinition</TypeId>
+                <SubtypeId>GravelSifting</SubtypeId>
+            </Id>
+            <DisplayName>Gravel Sifting</DisplayName>
+            <Description>Gravel Sifting</Description>
+            <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+            <HighlightIcon>Textures\GUI\Icons\ore_rock.dds</HighlightIcon>
+            <FocusIcon>Textures\GUI\Icons\ore_rock.dds</FocusIcon>
+            <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+            <OutputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</OutputConstraintIcon>
+        </Class>
+        
+    </BlueprintClasses>
+
+    <BlueprintClassEntries>
+
+<!-- Compacted Ore Blueprints -->
+        <Entry Class="GravelSifting" BlueprintSubtypeId="GravelSifting" />
+
+    </BlueprintClassEntries>
+</Definitions>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+			<Id>
+				<TypeId>ShipWelder</TypeId>
+				<SubtypeId>SELtdLargeNanobotBuildAndRepairSystem</SubtypeId>
+			</Id>
+			<DisplayName>Build and Repair (BAR)</DisplayName>
+		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+			<Id>
+				<TypeId>ShipWelder</TypeId>
+				<SubtypeId>SELtdSmallNanobotBuildAndRepairSystem</SubtypeId>
+			</Id>
+			<DisplayName>Build and Repair (BAR)</DisplayName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

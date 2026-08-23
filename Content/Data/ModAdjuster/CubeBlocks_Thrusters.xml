@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrust</SubtypeId>
+            </Id>
+            <Size x="3" y="3" z="3" />
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi</SubtypeId>
+            </Id>
+            <Size x="3" y="3" z="3" />
+        </Definition>
+
+	</CubeBlocks>
+</Definitions>

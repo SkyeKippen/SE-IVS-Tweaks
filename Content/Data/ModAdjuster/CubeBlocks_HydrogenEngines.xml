@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LargeHydrogenEngine</SubtypeId>
+            </Id>
+            <MaxPowerOutput>10</MaxPowerOutput>
+            <FuelCapacity>500000</FuelCapacity>
+            <FuelProductionToCapacityMultiplier>0.01</FuelProductionToCapacityMultiplier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>SmallHydrogenEngine</SubtypeId>
+            </Id>
+            <MaxPowerOutput>1</MaxPowerOutput>
+            <FuelCapacity>50000</FuelCapacity>
+            <FuelProductionToCapacityMultiplier>0.01</FuelProductionToCapacityMultiplier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>LargeHydrogenEngineReskin</SubtypeId>
+            </Id>
+            <MaxPowerOutput>10</MaxPowerOutput>
+            <FuelCapacity>500000</FuelCapacity>
+            <FuelProductionToCapacityMultiplier>0.01</FuelProductionToCapacityMultiplier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
+            <Id>
+                <TypeId>HydrogenEngine</TypeId>
+                <SubtypeId>SmallHydrogenEngineReskin</SubtypeId>
+            </Id>
+            <MaxPowerOutput>1</MaxPowerOutput>
+            <FuelCapacity>50000</FuelCapacity>
+            <FuelProductionToCapacityMultiplier>0.01</FuelProductionToCapacityMultiplier>
+        </Definition>
+    </CubeBlocks>
+</Definitions>

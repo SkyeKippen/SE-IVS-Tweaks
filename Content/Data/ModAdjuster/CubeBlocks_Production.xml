@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId></SubtypeId>
+            </Id>
+            <IceConsumptionPerSecond>150</IceConsumptionPerSecond>
+            <InventoryMaxVolume>16</InventoryMaxVolume>
+            <InventorySize>
+                <X>4</X>
+                <Y>4</Y>
+                <Z>4</Z>
+            </InventorySize>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>OxygenGeneratorSmall</SubtypeId>
+            </Id>
+            <IceConsumptionPerSecond>30</IceConsumptionPerSecond>
+            <InventoryMaxVolume>4</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>LargeBlockOxygenGeneratorLab</SubtypeId>
+            </Id>
+            <IceConsumptionPerSecond>150</IceConsumptionPerSecond>
+            <InventoryMaxVolume>16</InventoryMaxVolume>
+            <InventorySize>
+                <X>4</X>
+                <Y>4</Y>
+                <Z>4</Z>
+            </InventorySize>
+			<DLC>Fieldwork</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+            <Id>
+                <TypeId>OxygenGenerator</TypeId>
+                <SubtypeId>SmallBlockOxygenGeneratorLab</SubtypeId>
+            </Id>
+            <IceConsumptionPerSecond>30</IceConsumptionPerSecond>
+            <InventoryMaxVolume>4</InventoryMaxVolume>
+            <InventorySize>
+                <X>2</X>
+                <Y>2</Y>
+                <Z>2</Z>
+            </InventorySize>
+			<DLC>Fieldwork</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+            <Id>
+                <TypeId>Refinery</TypeId>
+                <SubtypeId>Blast Furnace</SubtypeId>
+            </Id>
+            <MaterialEfficiency>0.85</MaterialEfficiency>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>

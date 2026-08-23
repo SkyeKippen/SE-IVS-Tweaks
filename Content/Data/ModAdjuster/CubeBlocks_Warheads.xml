@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+            <Id>
+                <TypeId>Warhead</TypeId>
+                <SubtypeId>LargeWarhead</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="Girder" Count="24" />
+                <Component Subtype="Construction" Count="12" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Explosives" Count="60" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <ExplosionRadius>11.2</ExplosionRadius>
+            <WarheadExplosionDamage>7500</WarheadExplosionDamage>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_WarheadDefinition">
+            <Id>
+                <TypeId>Warhead</TypeId>
+                <SubtypeId>SmallWarhead</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="Girder" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SmallTube" Count="2" />
+                <Component Subtype="Computer" Count="1" />
+                <Component Subtype="Explosives" Count="10" />
+                <Component Subtype="SteelPlate" Count="3" />
+            </Components>
+            <ExplosionRadius>2.2</ExplosionRadius>
+            <WarheadExplosionDamage>1250</WarheadExplosionDamage>
+        </Definition>
+        
+    </CubeBlocks>
+</Definitions>
