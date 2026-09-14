@@ -1,0 +1,144 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+            <Id>
+                <TypeId>AirVent</TypeId>
+                <SubtypeId>NerdMainShieldBlock</SubtypeId><!--Subtypes would be mss_[lg/sg]_[block name] to keep with midnight nomenclature but these predate MSS having its name by about a year :( -->
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="300"/>
+                <Component Subtype="Construction" Count="60"/>
+                <Component Subtype="MetalGrid" Count="50"/>
+                <Component Subtype="PowerCell" Count="100"/>
+                <Component Subtype="Superconductor" Count="1000"/>
+                <Component Subtype="GravityGenerator" Count="25"/>
+                <Component Subtype="Computer" Count="200"/><!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="500"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_AirVentDefinition">
+            <Id>
+                <TypeId>AirVent</TypeId>
+                <SubtypeId>NerdMainShieldBlock_SG</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="50"/>
+                <Component Subtype="Construction" Count="8"/>
+                <Component Subtype="MetalGrid" Count="9"/>
+                <Component Subtype="PowerCell" Count="8"/>
+                <Component Subtype="Superconductor" Count="200"/>
+                <Component Subtype="GravityGenerator" Count="5"/>
+                <Component Subtype="Computer" Count="90"/><!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="200"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0"/>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>NerdUpgradeShieldBlock_HP</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="50"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="MetalGrid" Count="40"/>
+                <Component Subtype="PowerCell" Count="15"/>
+                <Component Subtype="Superconductor" Count="150"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="100"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="200"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>NerdUpgradeShieldBlock_HP_SG</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="PowerCell" Count="5"/>
+                <Component Subtype="Superconductor" Count="25"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="25"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="50"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>NerdUpgradeShieldBlock_Regen</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="50"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="MetalGrid" Count="40"/>
+                <Component Subtype="PowerCell" Count="15"/>
+                <Component Subtype="Superconductor" Count="150"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="100"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="200"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>NerdUpgradeShieldBlock_Regen_SG</SubtypeId>
+            </Id>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="PowerCell" Count="5"/>
+                <Component Subtype="Superconductor" Count="25"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="25"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="50"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>NerdUpgradeShieldBlock_AltDamageCurve</SubtypeId>
+            </Id>
+            <Public>false</Public>
+            <Components>
+                <Component Subtype="SteelPlate" Count="50"/>
+                <Component Subtype="Construction" Count="40"/>
+                <Component Subtype="MetalGrid" Count="40"/>
+                <Component Subtype="PowerCell" Count="15"/>
+                <Component Subtype="Superconductor" Count="150"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="100"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="200"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+            <Id>
+                <TypeId>ConveyorSorter</TypeId>
+                <SubtypeId>NerdUpgradeShieldBlock_AltDamageCurve_SG</SubtypeId>
+            </Id>
+            <Public>false</Public>
+            <Components>
+                <Component Subtype="SteelPlate" Count="10"/>
+                <Component Subtype="Construction" Count="5"/>
+                <Component Subtype="MetalGrid" Count="5"/>
+                <Component Subtype="PowerCell" Count="5"/>
+                <Component Subtype="Superconductor" Count="25"/>
+                <Component Subtype="GravityGenerator" Count="1"/>
+                <Component Subtype="Computer" Count="25"/> <!-- FUNCTIONAL LINE /\ UP NONFUNCTIONAL -->
+                <Component Subtype="SteelPlate" Count="50"/>
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+        </Definition>
+    </CubeBlocks>
+</Definitions>
