@@ -1,5 +1,6 @@
 BAR.xml
 Blueprints_Rocket.xml
+CubeBlocks_Cockpits.xml
 CubeBlocks_CTC.xml
 CubeBlocks_Drills.xml
 CubeBlocks_Gyroscope.xml

@@ -17,5 +17,6 @@
             </Components>
             <CriticalComponent Subtype="Computer" Index="0"/>
         </Definition>
+        <ForceMagnitude>7.72E+07</ForceMagnitude>
     </CubeBlocks>
 </Definitions>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>DBSmallBlockFighterCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>RoverCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockCockpitIndustrial</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockOpenSlopedCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockClosedSlopedCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockCapCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ShipDrillDefinition">
+            <Id>
+                <TypeId>Cockpit</TypeId>
+                <SubtypeId>SmallBlockFlushCockpit</SubtypeId>
+            </Id>
+            <GeneralDamageModifier>0.5</GeneralDamageModifier>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
