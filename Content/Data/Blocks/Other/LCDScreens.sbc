@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>HighResLargeLCDPanel5x5</SubtypeId>
+            </Id>
+            <DisplayName>High-Res LCD 5x5 Panel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="5" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LCDPanel5x5.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="25" />
+                <Component Subtype="Construction" Count="150" />
+                <Component Subtype="Computer" Count="25" />
+                <Component Subtype="Display" Count="250" />
+                <Component Subtype="BulletproofGlass" Count="150" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="5" Default="true"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="5" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="5" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\LCDPanel5x5Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel5x5Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel5x5Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HighResLCDPanel5x5</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0025</RequiredPowerInput>
+            <TextureResolution>3072</TextureResolution>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="3072" ScreenWidth="5" ScreenHeight="5" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="3072" ScreenWidth="5" ScreenHeight="5" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="3072" ScreenWidth="5" ScreenHeight="5" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="3072" ScreenWidth="5" ScreenHeight="5" />
+            </ScreenAreas>
+            <MaxScreenRenderDistance>400</MaxScreenRenderDistance>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>45</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>HighResLargeLCDPanel5x3</SubtypeId>
+            </Id>
+            <DisplayName>High-Rest LCD 5x3 Panel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LCDPanel5x3.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="5" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LCDPanel5x3.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="15" />
+                <Component Subtype="Construction" Count="90" />
+                <Component Subtype="Computer" Count="15" />
+                <Component Subtype="Display" Count="150" />
+                <Component Subtype="BulletproofGlass" Count="90" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="5" EndY="3" Default="true"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="5" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="5" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\LCDPanel5x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel5x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel5x3Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HighResLCDPanel5x3Rot</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>16</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0015</RequiredPowerInput>
+            <TextureResolution>3072</TextureResolution>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="3072" ScreenWidth="5" ScreenHeight="3" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="1843" ScreenWidth="3" ScreenHeight="5" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="3072" ScreenWidth="5" ScreenHeight="3" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="1843" ScreenWidth="3" ScreenHeight="5" />
+            </ScreenAreas>
+            <MaxScreenRenderDistance>400</MaxScreenRenderDistance>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>45</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+        
+        <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
+            <Id>
+                <TypeId>TextPanel</TypeId>
+                <SubtypeId>HighResLargeLCDPanel3x3</SubtypeId>
+            </Id>
+            <DisplayName>High-Res LCD 3x3 Panel</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\LCDPanel3x3.dds</Icon>
+            <Description>Description_TextPanel</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\LCDPanel3x3.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="50" />
+                <Component Subtype="Computer" Count="10" />
+                <Component Subtype="Display" Count="90" />
+                <Component Subtype="BulletproofGlass" Count="50" />
+            </Components>
+            <CriticalComponent Subtype="Display" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" Default="true"/>
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.1" EndY="3" />
+                <MountPoint Side="Right" StartX="0.9" StartY="0" EndX="1" EndY="3" />
+                <MountPoint Side="Top" StartX="0" StartY="0.9" EndX="3" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="0.1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.40" File="Models\Cubes\Large\LCDPanel3x3Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.70" File="Models\Cubes\Large\LCDPanel3x3Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LCDPanel3x3Construction_3.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>HighResLCDPanel3x3</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>12</BuildTimeSeconds>
+            <ResourceSinkGroup>Utility</ResourceSinkGroup>
+            <RequiredPowerInput>0.0009</RequiredPowerInput>
+            <TextureResolution>2048</TextureResolution>
+            <ScreenAreas>
+                <ScreenArea Name="ScreenArea" DisplayName="ScreenArea" TextureResolution="2048" ScreenWidth="3" ScreenHeight="3" />
+                <ScreenArea Name="ScreenArea90" DisplayName="ScreenArea90" TextureResolution="2048" ScreenWidth="3" ScreenHeight="3" />
+                <ScreenArea Name="ScreenArea180" DisplayName="ScreenArea180" TextureResolution="2048" ScreenWidth="3" ScreenHeight="3" />
+                <ScreenArea Name="ScreenArea270" DisplayName="ScreenArea270" TextureResolution="2048" ScreenWidth="3" ScreenHeight="3" />
+            </ScreenAreas>
+            <MaxScreenRenderDistance>400</MaxScreenRenderDistance>
+            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+            <DamagedSound>ParticleElectrical</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroyEffectOffset>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>-1.1</Z>
+            </DestroyEffectOffset>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>45</PCU>
+            <IsAirTight>false</IsAirTight>
+            <DLC>SparksOfTheFuture</DLC>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
